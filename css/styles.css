@@ -665,7 +665,7 @@ border-radius: 4px;
     
     width: 1600px;
     height: 600px;
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
@@ -673,15 +673,18 @@ border-radius: 4px;
     align-items: center;
     justify-content: center;
     margin-bottom: 95px;
+    background: rgba(47, 48, 58, 0.4);
   
 }
 .background-imagee{
+    
     box-sizing:content-box;
     width: 1600px;
     height: 600px;
-        background-image: url("../images/fondo squoosh.jpg");
+        background-image: url("../images/fondo-squoosh.jpg");
         background-size: auto;
     background-repeat: no-repeat;
+    
    
 }
 .direction-footer{
