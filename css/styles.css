@@ -527,8 +527,8 @@ border-radius: 0px 0px 4px 4px;
 .ghost-p{
    
     transition-property: top;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out; 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; 
     display: flex;
    /* top:250px; */
    position: relative;
@@ -579,7 +579,8 @@ font-weight: 400;
 line-height: 28px;
 letter-spacing: 0.03em;
    transition-property: top;
-   transition-duration: 0.5s;
+   transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; 
    display: flex;
    align-items: center;
    padding-left: 24px;
@@ -604,7 +605,8 @@ top: 0px;
 } 
 .ghost-p3{
     transition-property: top;
-    transition-duration: 0.5s;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ; 
     display: flex;
     padding-left: 24px;
     padding-right: 24px;
@@ -1305,6 +1307,13 @@ color: #212121;
    position: relative;
 
 }
+.nav-underline a.selected::after{
+   
+    opacity: 1;
+}
+
+
+
 .top-margin{
     margin-top: 20px;
 
